@@ -4,9 +4,9 @@
 #define YAZ printf
 #define OKU scanf
 
-int main7()
+int main()
 {
-    // Ön işlemci komutları 
+    // Ã–n iÃ¾lemci komutlarÃ½ 
     // #define
     // undef
     
