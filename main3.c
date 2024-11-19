@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main3()
+int main()
 {
-    // Döngüler
+    // DÃ¶ngÃ¼ler
     // for - while ve do while
     
     //int i;
@@ -13,13 +13,13 @@ int main3()
     //printf("donguden cikildi. \n");
     
     //int sayi= 5;
-    //while( sayi < 10 ){ //Ýlk önce koþul sonra iþlem
+    //while( sayi < 10 ){ //Ãlk Ã¶nce koÃ¾ul sonra iÃ¾lem
            //printf("%d \n", sayi);
            //sayi++;
     //}
     
     int sayi= 10;
-    do{ //Ýlk önce iþlem sonra koþul
+    do{ //Ãlk Ã¶nce iÃ¾lem sonra koÃ¾ul
         printf("%d \n", sayi);
         sayi++;
     }while( sayi < 10 );
