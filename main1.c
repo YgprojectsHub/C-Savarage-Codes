@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-int main1()
+int main()
 {
     int s1, s2, sonuc;
     char ch;
-    int is_valid = 1; // Sonucun geçerli olup olmadığını kontrol etmek için
+    int is_valid = 1; // Sonucun geÃ§erli olup olmadÄ±ÄŸÄ±nÄ± kontrol etmek iÃ§in
     
     printf("2 adet sayi giriniz: ");
     scanf("%d", &s1);
     scanf("%d", &s2);
     
-    // Buffer'daki '\n' karakterini temizlemek için boşluklu scanf
+    // Buffer'daki '\n' karakterini temizlemek iÃ§in boÅŸluklu scanf
     printf("Islem secimini yapiniz (+ - * /): ");
-    scanf(" %c", &ch); // Boşluk ekleyerek buffer temizlenir
+    scanf(" %c", &ch); // BoÅŸluk ekleyerek buffer temizlenir
 
     switch (ch) {
         case '+':
@@ -29,12 +29,12 @@ int main1()
                 sonuc = s1 / s2;
             } else {
                 printf("Hata: Sifira bolme islemi yapilamaz!\n");
-                is_valid = 0; // Geçersiz sonuç
+                is_valid = 0; // GeÃ§ersiz sonuÃ§
             }
             break;
         default:
             printf("Hatali islem secimi\n");
-            is_valid = 0; // Geçersiz sonuç
+            is_valid = 0; // GeÃ§ersiz sonuÃ§
             break;
     }
 
