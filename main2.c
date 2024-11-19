@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main2()
+int main()
 {
     int sayi;
     int x=10;
