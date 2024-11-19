@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main15(){
+int main(){
     // goto
     
     int sayi=1;
     BAS:
     
-    printf(" bir sayý gir : \n");
+    printf(" bir sayÃ½ gir : \n");
     scanf("%d", &sayi);
     
     if(sayi!=0)
