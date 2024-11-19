@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main18(){
+int main(){
     // dizilerin pointerlarla kul.
     
     int dizi[] = {3, 5, 7, 11};
