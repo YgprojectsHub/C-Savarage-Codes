@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-enum gunler{
+enum days{
      pazartesi, sali, carsamba, persembe, cuma    
 };
 
 //enum gunler{
 //     pazartesi = 1, sali, carsamba, persembe, cuma    
-//}; -> indexi 1 den başlatır
+//}; -> indexi 1 den baÃ¾latÃ½r
 
-int main24()
+int main()
 {
-    // Yeni değişken tipi oluşturma
-    // enum - numaralandırma
+    // Yeni deÃ°iÃ¾ken tipi oluÃ¾turma
+    // enum - numaralandÃ½rma
     
-    enum gunler bugun = pazartesi;
+    enum days today = pazartesi;
     
     if(bugun==0)
          printf("Gunlerden pazartesi \n");
