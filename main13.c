@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main13()
+int main()
 {
     // string fonk.
     // strlen, strcpy, strcat, strupr, strlwr
