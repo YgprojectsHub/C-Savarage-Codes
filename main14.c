@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main14()
+int main()
 {
     // break, continue;
     
@@ -9,8 +9,8 @@ int main14()
     
     for(i=0; i<10; i++){
         if(i==5)
-        //continue; // 5 i atla baþlat
-        //break; // - 5 te býrak
+        //continue; // 5 i atla baÃ¾lat
+        //break; // - 5 te bÃ½rak
         
         printf(" i nin degeri : %d \n", i);
     }
