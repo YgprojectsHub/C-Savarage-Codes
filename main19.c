@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int *hesapla3(int d1[], int n1, int d2[], int n2, int d3[]){
+int *hesapla(int d1[], int n1, int d2[], int n2, int d3[]){
     int i, j;
     
     for(i=0; i<n1; i++)
@@ -13,8 +13,8 @@ int *hesapla3(int d1[], int n1, int d2[], int n2, int d3[]){
     return d3;
 }
 
-int main19(){
-    // fonk. dizi döndürmesi
+int main(){
+    // fonk. dizi dÃ¶ndÃ¼rmesi
     
     int dizi1[] = {1, 3, 5};
     int dizi2[] = {2, 4, 6, 8};
