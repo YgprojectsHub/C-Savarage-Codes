@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int hesapla2(int sayi){
+int hesapla(int sayi){
     printf(" sayinin adresi : %d", sayi );
 }
 
-int main16(){
-    // referans argüman göndermek
+int main(){
+    // referans argÃ¼man gÃ¶ndermek
     
     int a = 5;
     hesapla2(&a);
