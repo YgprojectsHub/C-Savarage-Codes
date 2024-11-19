@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Döngüsel faktöriyel hesaplama
+// DÃ¶ngÃ¼sel faktÃ¶riyel hesaplama
 int faktoriyel1(int sayi) {
     int sonuc = 1;
     int i;
@@ -10,21 +10,21 @@ int faktoriyel1(int sayi) {
     return sonuc;
 }
 
-// Yinelemeli (Recursive) faktöriyel hesaplama
+// Yinelemeli (Recursive) faktÃ¶riyel hesaplama
 int faktoriyel2(int sayi) {
     if (sayi > 1)
         return sayi * faktoriyel2(sayi - 1);
     else
-        return 1; // sayi2 <= 1 olduðunda 1 döner
+        return 1; // sayi2 <= 1 olduÃ°unda 1 dÃ¶ner
 }
 
-int main11() {
+int main() {
     int sayi = 6;
 
-    // Döngüsel fonksiyon kullanýmý
-    printf("Döngüsel: %d! = %d\n", sayi, faktoriyel1(sayi));
+    // DÃ¶ngÃ¼sel fonksiyon kullanÃ½mÃ½
+    printf("DÃ¶ngÃ¼sel: %d! = %d\n", sayi, faktoriyel1(sayi));
 
-    // Yinelemeli (Recursive) fonksiyon kullanýmý
+    // Yinelemeli (Recursive) fonksiyon kullanÃ½mÃ½
     printf("Yinelemeli: %d! = %d\n", sayi, faktoriyel2(sayi));
 
     system("PAUSE");
