@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main4()
+int main()
 {
     // Tek Boyutlu Diziler
     
