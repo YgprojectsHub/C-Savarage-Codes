@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main9()
+int main()
 {
-    // Bellek yapısı adresleme - RAM
+    // Bellek yapÃ½sÃ½ adresleme - RAM
     int sayi= 5;
     
     printf(" sayi bellek adresi : %d \n", &sayi);
