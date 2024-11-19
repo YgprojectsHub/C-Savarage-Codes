@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main8()
+int main()
 {
     // Matematiksel fonksiyonlar.
-    // floor - aşağıya yuvarla.
-    // ceil - yukarıya yuvarla.
-    // fabs - eksiyi artıya çevirir.
-    // pow - üssünü alır.
-    // sqrt - karesini alır.
-    // sin - sayının sinüs değerini verir.
-    // cos - sayının kosinüs değerini verir.
+    // floor - aÅŸaÄŸÄ±ya yuvarla.
+    // ceil - yukarÄ±ya yuvarla.
+    // fabs - eksiyi artÄ±ya Ã§evirir.
+    // pow - Ã¼ssÃ¼nÃ¼ alÄ±r.
+    // sqrt - karesini alÄ±r.
+    // sin - sayÄ±nÄ±n sinÃ¼s deÄŸerini verir.
+    // cos - sayÄ±nÄ±n kosinÃ¼s deÄŸerini verir.
     
     printf("floor : %.2f \n", floor(5.12));
     printf("ceil : %.2f \n", ceil(5.12));
