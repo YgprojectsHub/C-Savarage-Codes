@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main23() {
-    // Dosya iþlemleri
+int main() {
+    // Dosya iÅŸlemleri
     // File - Tip 
     // fopen() - fonksiyon
-    // File tipi ile CRUD iþlemleri
+    // File tipi ile CRUD iÅŸlemleri
     
-    // Dosya oluþturma ve yazma
+    // Dosya oluÅŸturma ve yazma
     FILE *Dosya = fopen("deneme1.txt", "a");
     if (Dosya == NULL) {
         printf("Dosya olusturulamadi.\n");
@@ -17,7 +17,7 @@ int main23() {
     
     fprintf(Dosya, "Hello World!");
     printf("Dosyaya veri girisi yapildi.\n");
-    fclose(Dosya); // Dosyayý kapatmayý unutmayýn
+    fclose(Dosya); // DosyayÄ± kapatmayÄ± unutmayÄ±n
 
     // Dosya okuma
     FILE *DosyaOku = fopen("deneme1.txt", "r");
@@ -32,7 +32,7 @@ int main23() {
     }
     fclose(DosyaOku);
 
-    // Dosya silme iþlemi
+    // Dosya silme iÅŸlemi
     int trueFalse = 0;
     printf("\nDosya silinsin mi? (1: Evet, 0: Hayir): ");
     scanf("%d", &trueFalse);
