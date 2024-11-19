@@ -2,22 +2,22 @@
 #include <stdlib.h>
 #include <string.h>
 
-struct Ogrenci {
+struct Studient {
     char ad[50];
     char soyad[50];
     int yas;
 };
 
-int main25() {
-    // struct - yapı (Interface)
-    struct Ogrenci ogr1;
+int main() {
+    // struct - yapÃ½ (Interface)
+    struct Studient ogr1;
     
-    // Karakter dizilerine değer atama
+    // Karakter dizilerine deÃ°er atama
     strcpy(ogr1.ad, "Y");
     strcpy(ogr1.soyad, "G");
     ogr1.yas = 33;
     
-    // Yapı elemanlarını yazdırma
+    // YapÃ½ elemanlarÃ½nÃ½ yazdÃ½rma
     printf("Ad: %s\n", ogr1.ad);
     printf("Soyad: %s\n", ogr1.soyad);
     printf("Yas: %d\n", ogr1.yas);
