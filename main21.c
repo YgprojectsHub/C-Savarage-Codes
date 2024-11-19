@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main21(){
-    // dinamik bellek yönetimi.
+int main(){
+    // dinamik bellek yÃ¶netimi.
     // calloc, malloc, free
     
     int *dizi;
