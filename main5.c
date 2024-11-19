@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main5()
+int main()
 {
-    // Çok Boyutlu Diziler
+    // Ã‡ok Boyutlu Diziler
     int sayilar[2][3]; 
 
     int i;
     int j;
-    for (i = 0; i < 2; i++) {        // Satýrlar için döngü
-        for (j = 0; j < 3; j++) {    // Sütunlar için döngü
+    for (i = 0; i < 2; i++) {        // SatÄ±rlar iÃ§in dÃ¶ngÃ¼
+        for (j = 0; j < 3; j++) {    // SÃ¼tunlar iÃ§in dÃ¶ngÃ¼
             printf("Dizinin [%d][%d]. degerini giriniz : ", i,j);
             scanf("%d", &sayilar[i][j]);
         }
@@ -17,8 +17,8 @@ int main5()
     
     printf("girmis oldugumuz degerler \n");
     
-    for (i = 0; i < 2; i++) {        // Satýrlar için döngü
-        for (j = 0; j < 3; j++) {    // Sütunlar için döngü
+    for (i = 0; i < 2; i++) {        // SatÄ±rlar iÃ§in dÃ¶ngÃ¼
+        for (j = 0; j < 3; j++) {    // SÃ¼tunlar iÃ§in dÃ¶ngÃ¼
             printf(" %d ", sayilar[i][j]);
         }
         printf("\n");
