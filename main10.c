@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main10()
+int main()
 {
-    // Göstericiler - pointers
+    // GÃ¶stericiler - pointers
     
     int sayi= 5;
     int *ptr = &sayi;
