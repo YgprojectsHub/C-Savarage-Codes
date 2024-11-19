@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main12()
+int main()
 {
-    // giriş - çıkış fonksiyonları
+    // giriÃ¾ - Ã§Ã½kÃ½Ã¾ fonksiyonlarÃ½
     // printf - scanf
     // gets - puts
     
