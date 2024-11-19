@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include <string.h>
 
-struct Ogrenci {
+struct Student {
     char ad[50];
     char soyad[50];
     int yas;
 };
 
-int main27() {
-    // Yapı ile dizinin bir arada kullanımı
-    struct Ogrenci ogr[2] = { "orhan", "veli", 35, "ahmet", "oktay", 23 };
-    struct Ogrenci *ptr;
+int main() {
+    // YapÃ½ ile dizinin bir arada kullanÃ½mÃ½
+    struct Student ogr[2] = { "orhan", "veli", 35, "ahmet", "oktay", 23 };
+    struct Student *ptr;
     ptr = ogr;
     
     int i;
