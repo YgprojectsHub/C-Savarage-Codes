@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main22(){
-    // Tip Dönüşümleri
-    // atoi(integer yani tam sayı değerine), atof(float yani ondalıklı değerine)
+int main(){
+    // Tip DÃ¶nÃ¼ÅŸÃ¼mleri
+    // atoi(integer yani tam sayÄ± deÄŸerine), atof(float yani ondalÄ±klÄ± deÄŸerine)
     
     char dizi [10];
     printf("deger giriniz : ");
