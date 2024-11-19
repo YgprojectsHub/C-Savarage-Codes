@@ -9,10 +9,10 @@ int hesapla(int s1, int s2){
      return s1+s2;  
 }
 
-int main6()
+int main()
 {
     // Fonksiyonlar
-    // Değer döndüren fonk. ve değer döndürmeyen fonk.(void func.)
+    // DeÃ°er dÃ¶ndÃ¼ren fonk. ve deÃ°er dÃ¶ndÃ¼rmeyen fonk.(void func.)
     
     selamlar();
     int sonuc = hesapla(5, 6);
